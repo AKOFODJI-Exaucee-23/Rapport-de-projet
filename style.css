@@ -83,7 +83,7 @@ body{
     margin: 50px;
 }
 
-.intro h3 p, .calendrier h3 p, .calendrier h3 br p, .para, .groupe h3 li{
+.intro h3 p, .calendrier h3 p, .calendrier h3 br p, .para, .groupe h3 li, .mentor h4{
     font-weight: normal;  /*Enlever le gras du texte*/
 }
 
