@@ -28,3 +28,49 @@ de trois (03) modules fondamentaux:
     de leurs sessions de mentorat. Les utilisateurs doivent recevoir des notifications
     en temps réel lors de la réception de nouveaux messages.
  
+# Filières académique
+  La plateforme partage les compétences et optimise le matching selon les cinq (05) 
+  filières de l'IFRI:
+      .IA: Intelligence Artificielle
+      .IM: Internet des objets et Multimédia
+      .GL: Génie Logistique
+      .SE&IoT: Système Emmbarqués et Internet des Objets
+      .SI: Sécurité Informatique
+
+# Installation locale
+Pour lancer le projet sur votre machine de développement il faut:
+   1. Cloner le projet
+       bash
+       git clone https://github.com
+       cd ifri-mentorlink
+   2. Créer et activer l'environnement visuel
+       bash
+      # Sous Linux/macOS
+       python 3 -m venv venv
+       source venv/bin/activate
+      # Sous Windows
+        python -m venv venv
+        venv\Scripts\activate
+   3. Installer les dépendances
+        bash
+        pip install -r requirements.txt
+   4. Appliquer les migrations de la base de données
+        bash
+        python manage.py migrate
+   5. Lancer le serveur de développement
+        bash
+        python manage.py runserver
+
+# Technologies utilisées
+    *Frontend: html, css, JavaScript
+    *Base de donnés: PostgresSQL pour la production
+    *Backend: Python, Django.
+
+# Roles des utilisateurs
+   1. Mentoré (étudiant): Renseigne sa filière, recherche une compétence
+    et utilise la messagerie pour planifier ses cours.
+   2. Mentor: Configure son profil avec ses expertises, ses horaires
+   disponibles et prend en charge des étudiants.
+   3. Administrateur: Supervise la plateforme, valide les comptes et assure 
+   la modération des échanges.
+
