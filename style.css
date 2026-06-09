@@ -43,7 +43,7 @@ body{
 
 .précision {
     display: flex;
-    gap: 550px;
+    gap: 400px;
     list-style: none;   /*Enlève les pouces*/
     margin: 40px;
 }    
@@ -96,7 +96,7 @@ body{
 }
 
 .image img{
-   width: 380px;
+   width: 300px;
    height: 300px;
    object-fit: contain;
 }
